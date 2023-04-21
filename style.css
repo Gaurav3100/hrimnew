@@ -1,0 +1,109 @@
+body{
+  background-color: #191C24;
+}
+
+
+
+.main{
+  background-color: black;
+  height: 800px;
+  border-radius: 10px;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
+  padding-top: 1%;
+}
+
+.graph{
+    background-color: #191C24;
+    height: 635px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.foot{
+  text-align: center;
+  padding: 2%;
+}
+
+.fop{
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: red;
+}
+
+
+
+
+
+@media(max-width:769px) {
+
+  i{
+    color: red;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+
+  .graph{
+      background-color: #191C24;
+      height: 235px;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 1%;
+      border-radius: 10px;
+
+  }
+
+  .col2{
+    float:right;
+  }
+
+  /* .foot{
+    text-align: center;
+    padding: 2%;
+    margin-top: 5%;
+  } */
+
+}
+
+.col-sm{
+
+}
+
+.col1,.col2,.col3,.col4,.col5,.col6,.col7{
+  margin: 1%;
+  background-color: #191C24;
+  border-radius: 10px;
+  padding-left: 1.5%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+i{
+  color: red;
+  text-align: left;
+  font-size: 35px;
+}
+
+.colin{
+  float: right;
+}
+.colp{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.colh{
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
